@@ -1,0 +1,7 @@
+name: Build and Test
+on:
+  push:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+    - name: Mock Build
+      run: echo 'Build succeeded!'
